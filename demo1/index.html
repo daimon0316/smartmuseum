@@ -1,344 +1,266 @@
-
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>科技惠民计划</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <head>
+    <!-- CSS -->
+    <link href="http://libs.baidu.com/bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/ebook-style.css">
 
-        <meta charset="utf-8">
-        <title>Produkta - Responsive Product Showcase</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-        <!-- CSS -->
-        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700'>
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/prettyPhoto/css/prettyPhoto.css">
-        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
-        <link rel="stylesheet" href="assets/css/social-icons.css">
-        <link rel="stylesheet" href="assets/css/ebook-style.css">
+    <!-- Favicon and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+    <style type="text/css">
 
-        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-        <!--[if lt IE 9]>
-            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+        .page-header {
+            margin-top: 50px;
+        }
 
-        <!-- Favicon and touch icons -->
-        <link rel="shortcut icon" href="assets/ico/favicon.ico">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+        .thumbnails .thumbnail {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
 
-    </head>
+        .navbar .nav>li>a {
+            padding: 15px 15px 15px;
+        }
+    </style>
+</head>
 
-    <body>
+<body data-spy="scroll" data-target="#site-navbar">
 
-        <!-- Header -->
+<div id="site-navbar" class="navbar navbar-fixed-top navbar-inverse">
+    <div class="navbar-inner">
         <div class="container">
-            <div class="header row">
-                <div class="logo span4">
-                    <h2><a href="">Smart Museum</a></h2>
-                </div>
-                <div class="tel-skype span8">
-                    <p><i class="icon-envelope"></i> Email: smartmuseum@126.com <span class="pipe">|</span> </p>
-                </div>
-            </div>
+            <a class="brand" href="#" style="padding: 2px;">
+                <!--科技惠民计划-->
+                <img src="assets/img/logo2.png" alt="" style="height: 45px;"/>
+            </a>
+            <ul class="nav">
+                <li class="active"><a href="#introduce">项目介绍</a></li>
+                <li><a href="#timeline">实时动态</a></li>
+                <li><a href="#manage">项目管理</a></li>
+                <li><a href="#reports">项目简报</a></li>
+                <li><a href="#smartmuseum">智慧博物馆</a></li>
+                <li><a href="#events">大事记</a></li>
+            </ul>
         </div>
+    </div>
+</div>
 
-        <!-- Product Showcase -->
-        <div class="product-showcase">
-            <div class="product-showcase-pattern">
-                <div class="container">
+
+<!-- Product Showcase -->
+<div class="product-showcase" style="margin-top: 50px;">
+    <div class="product-showcase-pattern">
+        <div class="container">
+            <div class="row">
+                <div class="span12 product-background">
                     <div class="row">
-                        <div class="span12 product-background">
-                            <div class="row">
-                                <div class="span5 product-image">
-                                    <img src="assets/img/ebook.png" alt="">
-                                </div>
-                                <div class="span7 product-title">
-                                    <h1>科技惠民计划</h1>
-                                    <div class="product-description">
-                                        <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp博物馆公共安全管理与服务物联网技术集成应用示范</p>
-                                        <br/>
-                                        <br/>
-                                        <p><strong>项目组织单位：</strong>陕西省科技厅</p>
-										<p><strong>基层科技主管部门：</strong>  陕西省文物局</p>
-										<p><strong>项目承担单位：</strong>秦始皇帝陵博物院</p>
-										<p><strong>项目负责人：</strong>赵  荣（陕西省文物局局长/博士生导师）</p>
-										<p><strong>项目技术负责人：</strong>周  铁（秦始皇帝陵博物院总工程师）</p>
-										<p> </p>
-										<p><strong>项目参与单位：</strong></p>
-										<p>&nbsp&nbsp陕西历史博物馆、汉阳陵博物馆、西安碑林博物馆、陕西省文物信息咨询中心</p>
-    									<p>&nbsp&nbsp北京大学深圳研究生院、西安元智系统技术有限责任公司、易游无限科技(北京)有限公司</p>
+                        <div class="span5 product-image">
+                            <img src="assets/img/ebook.png" alt="">
+                        </div>
+                        <div class="span7 product-title">
+                            <h1>科技惠民计划</h1>
 
-                                    </div>
-                                </div>
+                            <div class="product-description">
+                                <p>
+                                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp博物馆公共安全管理与服务物联网技术集成应用示范</p>
+                                <br/>
+                                <br/>
+
+                                <p><strong>项目组织单位：</strong>陕西省科技厅</p>
+
+                                <p><strong>基层科技主管部门：</strong> 陕西省文物局</p>
+
+                                <p><strong>项目承担单位：</strong>秦始皇帝陵博物院</p>
+
+                                <p><strong>项目负责人：</strong>赵 荣（陕西省文物局局长/博士生导师）</p>
+
+                                <p><strong>项目技术负责人：</strong>周 铁（秦始皇帝陵博物院总工程师）</p>
+
+                                <p></p>
+
+                                <p><strong>项目参与单位：</strong></p>
+
+                                <p>&nbsp&nbsp陕西历史博物馆、汉阳陵博物馆、西安碑林博物馆、陕西省文物信息咨询中心</p>
+
+                                <p>&nbsp&nbsp北京大学深圳研究生院、西安元智系统技术有限责任公司、易游无限科技(北京)有限公司</p>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</div>
 
-        <!-- Content -->
-        <div class="container">
+<!-- Content -->
+<div class="container">
 
-            <div class="row">
-                <div class="span12">
-                    <!-- features -->
-                    <div class="features_2">
-                        <h3>项目简介</h3>
-                        <div class="row">
-                            <div class="span4 single-feature features-left-span">
-                                <div class="feature-icon">
-                                    <i class="icon-cloud"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h4>Duis Aute Irure</h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                                </div>
-                            </div>
-                            <div class="span4 single-feature">
-                                <div class="feature-icon">
-                                    <i class="icon-ok"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h4>Voluptate Velit</h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                                </div>
-                            </div>
-                            <div class="span4 single-feature">
-                                <div class="feature-icon">
-                                    <i class="icon-twitter"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h4>Sunt In Culpa</h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="span4 single-feature features-left-span single-feature-bottom">
-                                <div class="feature-icon">
-                                    <i class="icon-fire"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h4>Velit Esse</h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                                </div>
-                            </div>
-                            <div class="span4 single-feature single-feature-bottom">
-                                <div class="feature-icon">
-                                    <i class="icon-magic"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h4>Cillum Dolore</h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                                </div>
-                            </div>
-                            <div class="span4 single-feature single-feature-bottom">
-                                <div class="feature-icon">
-                                    <i class="icon-flag"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h4>Fugiat Nulla</h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- end row -->
-            
-            <div class="row">
-                <div class="span12">
-                    <!-- features -->
-                    <div class="features_2">
-                        <h3>项目简报</h3>
-                        <div class="row">
-                            <div class="span4 single-feature features-left-span">
-                                <div class="feature-icon">
-                                    <i class="icon-cloud"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h4>Duis Aute Irure</h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                                </div>
-                            </div>
-                            <div class="span4 single-feature">
-                                <div class="feature-icon">
-                                    <i class="icon-ok"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h4>Voluptate Velit</h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                                </div>
-                            </div>
-                            <div class="span4 single-feature">
-                                <div class="feature-icon">
-                                    <i class="icon-twitter"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h4>Sunt In Culpa</h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- end row -->
+    <div class="row">
+        <div id="introduce" class="span12">
+            <!-- features -->
+            <div class="page-header">
+                <h3>项目简介</h3>
+            </div>
 
             <div class="row">
-                <div class="span12">
-                    <!-- gallery -->
-                    <div class="gallery_2">
-                        <h3>实时动态</h3>
-                        <h5>1. Introduction to HTML5</h5>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                        <h5>2. Differences from HTML 4.01</h5>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                        <h5>3. Main features and examples</h5>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                        <div class="gallery-images">
-                            <div class="img-wrapper">
-                                <a href="assets/img/gallery/1-big.jpg" rel="prettyPhoto[pp_gal]">
-                                    <img src="assets/img/gallery/1.jpg" alt="">
-                                    <span class="img-background"><i class="icon-plus"></i></span>
-                                </a>
-                            </div>
-                            <div class="img-wrapper">
-                                <a href="assets/img/gallery/2-big.jpg" rel="prettyPhoto[pp_gal]">
-                                    <img src="assets/img/gallery/2.jpg" alt="">
-                                    <span class="img-background"><i class="icon-plus"></i></span>
-                                </a>
-                            </div>
-                            <div class="img-wrapper">
-                                <a href="assets/img/gallery/3-big.jpg" rel="prettyPhoto[pp_gal]">
-                                    <img src="assets/img/gallery/3.jpg" alt="">
-                                    <span class="img-background"><i class="icon-plus"></i></span>
-                                </a>
-                            </div>
-                            <div class="img-wrapper">
-                                <a href="assets/img/gallery/4-big.jpg" rel="prettyPhoto[pp_gal]">
-                                    <img src="assets/img/gallery/4.jpg" alt="">
-                                    <span class="img-background"><i class="icon-plus"></i></span>
-                                </a>
-                            </div>
-                            <div class="img-wrapper">
-                                <a href="assets/img/gallery/1-big.jpg" rel="prettyPhoto[pp_gal]">
-                                    <img src="assets/img/gallery/1.jpg" alt="">
-                                    <span class="img-background"><i class="icon-plus"></i></span>
-                                </a>
-                            </div>
-                            <div class="img-wrapper">
-                                <a href="assets/img/gallery/2-big.jpg" rel="prettyPhoto[pp_gal]">
-                                    <img src="assets/img/gallery/2.jpg" alt="">
-                                    <span class="img-background"><i class="icon-plus"></i></span>
-                                </a>
-                            </div>
-                            <div class="img-wrapper">
-                                <a href="assets/img/gallery/3-big.jpg" rel="prettyPhoto[pp_gal]">
-                                    <img src="assets/img/gallery/3.jpg" alt="">
-                                    <span class="img-background"><i class="icon-plus"></i></span>
-                                </a>
-                            </div>
-                            <div class="img-wrapper">
-                                <a href="assets/img/gallery/4-big.jpg" rel="prettyPhoto[pp_gal]">
-                                    <img src="assets/img/gallery/4.jpg" alt="">
-                                    <span class="img-background"><i class="icon-plus"></i></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="span5">
+                    <p style="text-indent: 2em;">
+                        为贯彻落实《国家中长期科学和技术发展规划纲要（2006-2020年）》，加快科学技术成果的转化应用，发挥科技进步在改善民生和促进社会发展中的支撑和引领作用，科技部和财政部组织实施科技惠民计划。科技惠民计划的实施目标是坚持面向基层，依靠科技进步与机制创新，加快社会发展领域科学技术成果的转化应用。通过在基层示范应用一批综合集成技术，推动一批先进适用技术成果的推广普及，提升科技促进社会管理创新和服务基层社会建设的能力。
+                        本项目将集成应用物联网相关技术和装备，满足当前博物馆所面临的公共安全管理和公众服务的需求。集成开发博物馆公共安全智能管理及应用系统，实现文物本体监测、环境监测、文物实时管理、观众实时动态管理、智能导览、互动展示、信息发布等功能。
+                        建设陕西智慧文博云平台，建立博物馆管理及服务门户网站，初步实现省内博物馆信息的集中采集、管理与发布；并在10家博物馆部署相关硬件设备和软件系统，开发相应的导览应用和互动展示内容，面向博物馆，面向公众开展智慧安全管理与丰富的信息服务。
+                        项目组织单位为陕西省科技厅，基层科技主管部门为陕西省文物局，项目牵头承担单位为秦始皇帝陵博物院，项目负责人赵荣。项目示范实施单位包括：秦始皇帝陵博物院、陕西历史博物院、西安碑林博物馆、汉阳陵博物馆、宝鸡青铜器博物馆、法门寺博物馆、茂陵博物馆、昭陵博物馆、汉中市博物馆、延安革命纪念馆。
+                    </p>
                 </div>
-            </div> <!-- end row -->
+                <div class="offset1 span6">
+                    <script async class="speakerdeck-embed" data-id="b1fc9b90c90d0130526a5e5d0befe118"
+                            data-ratio="1.41436464088398" src="//speakerdeck.com/assets/embed.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end row -->
+
+
+    <div class="row">
+        <div id="timeline" class="span12">
+
+            <div class="page-header">
+                <h3>实时动态</h3>
+            </div>
+
+            <ul>
+                <li>
+                    2013年1月2日，国家科技惠民计划《博物馆公共安全管理与服务物联网技术集成应用示范》项目实施启动工作会在省文物局召开。
+                </li>
+            </ul>
+
+            <ul class="thumbnails">
+                <li class="span4">
+                    <div class="thumbnail" style="padding-top: 20px; padding-bottom: 20px;">
+                        <img src="assets/img/timeline1.jpg" alt="">
+                    </div>
+                </li>
+                <li class="span4">
+                    <div class="thumbnail">
+                        <img src="assets/img/timeline2.jpg" alt="">
+                    </div>
+                </li>
+                <li class="span4">
+                    <div class="thumbnail">
+                        <img src="assets/img/timeline3.jpg" alt="">
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <!-- end row -->
+
+    <div class="row">
+        <div id="reports" class="span12">
+            <!-- features -->
+            <div class="page-header">
+                <h3>项目简报</h3>
+            </div>
 
             <div class="row">
-                <div class="span12">
-                    <!-- about us -->
-                    <div class="about-us_2">
-                        <h3>大事记</h3>
-                        <h5>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
+                <div class="span4">
+                    <h4>第一期简报 2014-01-02</h4>
+
+                    <ul>
+                        <li>项目启动会顺利召开</li>
+                    </ul>
+
+                    <a href="http://url.cn/QUA9M4" target="_blank">下载简报</a>
+
                 </div>
-            </div> <!-- end row -->
-
-            <div class="row">
-                <!-- as seen on -->
-                <div class="span12 using-this">
-                    <h3>智慧博物馆</h3>
-                    <div class="using-this-container">
-                        <a class="using-this-google" href="#"></a>
-                        <a class="using-this-pinterest" href="#"></a>
-                        <a class="using-this-youtube" href="#"></a>
-                        <a class="using-this-google" href="#"></a>
-                        <a class="using-this-pinterest" href="#"></a>
-                    </div>
-                </div>
-            </div> <!-- end row -->
-
-        </div> <!-- end container -->
-
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="span4 from-twitter">
-                        <h3>From Twitter</h3>
-                        <div class="show-tweet"></div>
-                    </div>
-                    <div class="span4 testimonials">
-                        <h3>Testimonials</h3>
-                        <p>" Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit. "</p>
-                        <div class="test-author">
-                            <img src="assets/img/testimonials/3.jpg" alt="">
-                            <p><span>Jane Ipsum Doe</span><br>Produkta Inc.</p>
-                        </div>
-                    </div>
-                    <div class="span4 contact-us">
-                        <h3>Contact Us</h3>
-                        <form action="assets/contact.php" method="post">
-                            <input type="text" name="name" class="name" placeholder="Name">
-                            <input type="text" name="email" class="email" placeholder="Email">
-                            <textarea name="message" placeholder="Message"></textarea>
-                            <button type="submit">Submit</button>
-                        </form>
-                    </div>
-                </div> <!-- end row -->
-                <div class="row">
-                    <div class="span12">
-                        <div class="social-links">
-                            <a class="facebook" href="#"></a>
-                            <a class="twitter" href="#"></a>
-                            <a class="dribbble" href="#"></a>
-                            <a class="pinterest" href="#"></a>
-                            <a class="googleplus" href="#"></a>
-                            <a class="skype" href="#"></a>
-                            <a class="youtube" href="#"></a>
-                            <a class="vimeo" href="#"></a>
-                            <a class="forrst" href="#"></a>
-                            <a class="email" href="#"></a>
-                        </div>
-                    </div>
-                </div> <!-- end row -->
-                <div class="row">
-                    <div class="span12 copyright">
-                        <p>Copyright &copy; 2013 - Produkta - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
-                    </div>
-                </div> <!-- end row -->
-            </div> <!-- end container -->
-        </footer>
+            </div>
+        </div>
+    </div>
+    <!-- end row -->
 
 
-        <!-- Javascript -->
-        <script src="assets/js/jquery-1.8.2.min.js"></script>
-        <script src="assets/js/jquery.backstretch.min.js"></script>
-        <script src="assets/js/jquery.tweet.js"></script>
-        <script src="assets/prettyPhoto/js/jquery.prettyPhoto.js"></script>
-        <script src="assets/js/ebook-scripts.js"></script>
+    <div class="row">
+        <div id="events" class="span12">
+            <!-- about us -->
+            <div class="page-header">
+                <h3>大事记</h3>
+            </div>
 
-    </body>
+            <h5>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                anim id est laborum.</h5>
 
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+    <!-- end row -->
+
+    <div class="row">
+        <!-- as seen on -->
+        <div id="smartmuseum" class="span12">
+            <div class="page-header">
+                <h3>智慧博物馆</h3>
+            </div>
+
+            <div class="using-this-container">
+                <a class="using-this-google" href="#"></a>
+                <a class="using-this-pinterest" href="#"></a>
+                <a class="using-this-youtube" href="#"></a>
+                <a class="using-this-google" href="#"></a>
+                <a class="using-this-pinterest" href="#"></a>
+            </div>
+        </div>
+    </div>
+    <!-- end row -->
+
+</div>
+<!-- end container -->
+
+<footer>
+    <div class="container">
+        <!-- end row -->
+        <div class="row">
+            <div class="span12 copyright">
+                <p>Copyright &copy; 2014 - 科技惠民计划 | Email: smartmuseum@126.com
+                </p>
+            </div>
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</footer>
+
+
+<!-- Javascript -->
+<script src="http://libs.baidu.com/jquery/1.8.2/jquery.min.js"></script>
+<script src="http://libs.baidu.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.backstretch.min.js"></script>
+<script src="assets/js/ebook-scripts.js"></script>
+
+</body>
 </html>
 
